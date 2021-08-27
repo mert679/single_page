@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("../coderspace/Image.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+.logo-wrapper{
+    display: grid;
+    place-items: center;
+    margin-top: 35px;
+}
+.tab-wrapper{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: 45px auto;
+    border-radius: 100px;
+}
+.onetab{
+    border: 2px solid white;
+    padding: 15px 72px;
+    border-radius: 100px 0px 0px 100px ;
+    background-color: white;
+    color: #4F5362;
+
+}
+.secondtab{
+    border: 2px solid white;
+    padding: 15px 72px;
+    border-radius: 0px 100px 100px 0px;
+    color: white;
+
+}
+span{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 1.4px;
+    line-height: 28px;
+    cursor: pointer;
+}
+
+#slider{
+    width: 1000px;
+    height: 189px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px auto;
+    position: relative;
+}
+.slayt>p{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 52px;
+    text-align: center;
+    line-height: 63px;
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    padding: 8px 25px;
+}
+
+/*social*/
+
+.social-wrapper{
+    margin-top: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.social-detail{
+    width: 340px;
+    height: 130px;
+    display: flex;
+    align-items: center;
+    background: #222328;
+    mix-blend-mode: normal;
+    opacity: 0.7;
+    border-radius: 5px;
+}
+.social-detail1{
+    width: 340px;
+    height: 130px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    box-shadow: 0px 29px 55px rgba(0, 0, 0, 0.69);
+    border-radius: 5px;
+}
+.user1{
+    background-image: url("../coderspace/Userpic.png");
+    background-size: cover;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    width: 70px;
+    height: 70px;
+    margin-left: 15px;
+}
+.user2{
+    background-image: url("../coderspace/Userpic\ \(1\).png");
+    background-size: cover;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    width: 70px;
+    height: 70px;
+    margin-left: 15px;
+
+}
+.user3{
+    background-image: url("../coderspace/Userpic\ \(2\).png");
+    background-size: cover;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    width: 70px;
+    height: 70px;
+    margin-left: 15px;
+
+}
+.social{
+    padding-left: 35px;
+
+}
+
+.name{
+    color: #4F5362;
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 15px;
+
+}
+.name1{
+    font-size: 18px;
+    line-height: 24px;
+    color: white;
+    margin-bottom: 15px;
+
+}
+.company{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    text-align: center;
+    letter-spacing: 1.2px;
+    line-height: 24px;
+    cursor: pointer;
+    color: #4F5362;
+}
+.company1{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    text-align: center;
+    letter-spacing: 1.2px;
+    line-height: 24px;
+    cursor: pointer;
+    color: #A8ACB9;
+    margin-top: 15px;
+}
+.social-icon{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
